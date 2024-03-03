@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            background-color: #f2f2f2;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery img, .menu img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Image Links</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#menu">Menu</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to our website! Explore our collection of images related to technology, nature, and food.</p>
+    <a href="https://www.example.com/technology"><img src="https://via.placeholder.com/400x200" alt="Technology"></a>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <a href="https://www.example.com/nature"><img src="https://via.placeholder.com/200x200" alt="Nature 1"></a>
+        <a href="https://www.example.com/nature"><img src="https://via.placeholder.com/200x200" alt="Nature 2"></a>
+        <a href="https://www.example.com/nature"><img src="https://via.placeholder.com/200x200" alt="Nature 3"></a>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <ul class="menu">
+        <li><a href="https://www.example.com/food1"><img src="https://via.placeholder.com/200x100" alt="Food 1"></a> Food Item 1</li>
+        <li><a href="https://www.example.com/food2"><img src="https://via.placeholder.com/200x100" alt="Food 2"></a> Food Item 2</li>
+        <li><a href="https://www.example.com/food3"><img src="https://via.placeholder.com/200x100" alt="Food 3"></a> Food Item 3</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 Image Links. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
